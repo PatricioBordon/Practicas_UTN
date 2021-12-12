@@ -9,7 +9,7 @@ int main(){
     std::cout<<"\nEdad: "; std::cin>>edad;
     std::cout<<"\nEstatura: "; std::cin>>estatura;
     
-    std::cout<<"Verifica que los siguientes datos sean correctos\n\n";
+    std::cout<<"Verifica que los siguientes datos sean los correctos\n\n";
     std::cout<<"Sexo: "<<sexo<<"\n";
     std::cout<<"Edad: "<<edad<<"\n";
     std::cout<<"Estatura: "<<estatura<<"\n";
