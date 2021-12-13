@@ -1,7 +1,7 @@
 #include <iostream>
 int main (){
     int n1,n2;
-    std::cout<<"Ingresa dos numeros\n";
+    std::cout<<"Ingresa dos numeros:\n";
     std::cin>>n1>>n2;
         if(n1==n2){
         std::cout<<n1<<" es igual a "<<n2<<"\n";
