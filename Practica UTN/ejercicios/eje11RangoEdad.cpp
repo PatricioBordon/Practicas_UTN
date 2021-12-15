@@ -7,8 +7,7 @@ int main(){
     std::cout<<"Ingresar edad del candidato/a: ";std::cin>>edad;
     if(edad>=18 && edad<=40){
         std::cout<<"Es apto/a para el empleo\n";
-    }
-    else{
+    }else{
         std::cout<<"No es apto/a para el empleo\n";
     }
     system("pause");
