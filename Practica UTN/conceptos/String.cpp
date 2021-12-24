@@ -1,5 +1,9 @@
 /*
-
+una cadena o string es una matriz o array de caracteres
+Un STRING o cadena de caracteres es un tipo de dato que se 
+utiliza para almacenar textos, no es una variable primitiva 
+como el el int, el bool o el float, sino que es un conjunto 
+de variables primitivas tipo caracter.
 */
 #include <iostream>
 int main(){
