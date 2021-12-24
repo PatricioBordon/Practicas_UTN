@@ -11,7 +11,7 @@ int main(){
     char texto1[]="ayer";
     char texto2[]="viernes";
     int comparacion;
-    comparacion= strcmp(texto1, texto2);//guarda la diferencia entre los dos textos
+    comparacion= strcmp(texto1, texto2);//guarda la diferencia entre los dos textos (guiandose por el codigo ASCII)
     if(comparacion==0){
         std::cout<<"Los dos textos son iguales\n";
     }else{
