@@ -28,6 +28,16 @@ int main(){
             ciclos++;
         }
     }
+    if(ciclos==4){
+
+        std::cout<<"Los numeros ya estaban ordenados de forma ascendente\n";
+        std::cout<<"Numeros ordenados de forma descendente en "<<ciclos<<" ciclos: \n";
+        for (int i = 4; i >= 0; i--)
+        {
+            std::cout<<numeros[i]<<"\n";
+        }
+
+    }else{
     std::cout<<"Numeros ordenados de forma ascendente en "<<ciclos<<" ciclos: \n";
     for (int i = 0; i < 5; i++)
     {
@@ -38,7 +48,7 @@ int main(){
     {
         std::cout<<numeros[i]<<"\n";
     }
-    
+    }
 
     system ("pause");
     return 0;
