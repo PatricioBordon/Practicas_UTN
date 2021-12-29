@@ -8,7 +8,6 @@ Depende el numero a encontrar gasta menos recursos
 */
 #include <iostream>
 int main(){
-    regresa:
     int tamano, lista[]={1,2,3,4,5}, valor, cont=0, inferior, superior, mitad;
     bool encontrado=false;
     tamano=sizeof(lista)/sizeof(*lista);//esto equivale a 20/4 = 5 (es mas eficiente asi solo cambio la lista en vez de tamano y lista)
@@ -22,7 +21,11 @@ int main(){
     }
     std::cout<<"Ingresar el valor: ";
     std::cin>>valor;
-
+    while ((valor>superior)||(valor<inferior))
+    {
+        std::cout<<"Valor no encontrado, intenta de nuevo\n";
+        std::cin>>valor;
+    }
     while ((inferior <= superior) && (cont<tamano))
     {
         mitad=(inferior+superior)/2;
@@ -34,12 +37,12 @@ int main(){
         if (lista[mitad]>valor)
         {
             superior=mitad;
-            mitad= (inferior+superior)/2;
+            //mitad= (inferior+superior)/2;
         }
         if (lista[mitad]<valor)
         {
             inferior=mitad;
-            mitad= (inferior+superior)/2;
+           // mitad= (inferior+superior)/2;
         }
         cont++;
     }
@@ -49,12 +52,6 @@ int main(){
        std::cout<<"El valor coincide con la posicion: "<<mitad+1<<"\n";
     }
 
-    if (encontrado==false)
-    {
-        std::cout<<"El valor ingresado no coincide con la lista, intenta de nuevo:\n";
-        goto regresa;
-    }
-    
     system("pause");
     return 0;
 }
