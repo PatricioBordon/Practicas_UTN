@@ -6,6 +6,8 @@ Sumar cada uno de los números.
 #include <iostream>
 #include <stdlib.h>
 
+
+
 int main(){
     char texto[4],texto1[2], texto2[2];
     int num1=0, num2=0, suma=0;
