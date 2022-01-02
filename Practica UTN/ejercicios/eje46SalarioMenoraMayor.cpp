@@ -6,11 +6,12 @@ Ordenar los salarios de menor a mayor.
 Mostrar los salarios.
 */
 #include <iostream>
+#include <string.h>
 
 struct empleados
 {
     char nombre[30];
-    int salario;
+    float salario;
 }empleado[4]={{"Sara",0},{"Mengano",0},{"Fulana",0}, {"Carlos",0}};
 
 int main(){
@@ -21,7 +22,8 @@ int main(){
         std::cout<<"Ingresar salario del empleado "<<i+1<<" ["<<empleado[i].nombre<<"] ";
         std::cin>>empleado[i].salario;
     }
-    int aux;
+    float auxsalario; 
+    char auxnombre[30];
 
     for (int i = 0; i < (sizeof(empleado)/sizeof(*empleado)); i++)
     {
@@ -31,9 +33,14 @@ int main(){
             if (empleado[j].salario>empleado[j+1].salario)
             {
                 ordenado=false;
-                aux=empleado[j].salario;
+                strcpy(auxnombre, empleado[j].nombre);
+                auxsalario=empleado[j].salario;
+
+                strcpy(empleado[j].nombre, empleado[j+1].nombre);
                 empleado[j].salario=empleado[j+1].salario;
-                empleado[j+1].salario=aux;
+
+                strcpy(empleado[j+1].nombre, auxnombre);
+                empleado[j+1].salario=auxsalario;
             }
             
         }
