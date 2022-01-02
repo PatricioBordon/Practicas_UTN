@@ -3,6 +3,7 @@ Crear un arreglo de estructuras con id y nombre para 2 empleados.
 Pedirle al usuario que ingrese los datos del empleado.
 Validar que el id contenga sólo números y que tenga 6 dígitos.
 */
+//Revisar
 #include <iostream>
 #include <string.h>
 
