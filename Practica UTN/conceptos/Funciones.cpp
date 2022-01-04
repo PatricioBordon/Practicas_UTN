@@ -5,7 +5,7 @@ implementada y depurada de manera independiente al resto de código.
 Ejemplo de encontrar mayor de dos numeros
 */
 #include <iostream>
-#include <conio.h>
+
 using namespace std;
 
 //prototipo de funcion
