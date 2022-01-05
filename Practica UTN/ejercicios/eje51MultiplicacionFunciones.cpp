@@ -1,7 +1,7 @@
 /*
 Crear una función que le pida al usuario 2 números enteros positivos y los guarde.
 Crear una función que reciba 2 números y retorne el resultado.
-Crear una función que muestre el resultado.
+Crear una función que muestre el resultado. 
 Llamar las funciones multiplicación, retornar y mostrar el resultado a nuestra función principal.
 */
 #include <iostream>
