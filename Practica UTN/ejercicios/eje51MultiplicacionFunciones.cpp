@@ -10,7 +10,7 @@ void PedirNumPos ();
 int recibir (int num1, int num2);
 void mostrar (int num1, int num2);
 
-int main()
+int main()//De esta forma se estaria usando la funcion principal como indice
 {
     int resultado;
     PedirNumPos();
