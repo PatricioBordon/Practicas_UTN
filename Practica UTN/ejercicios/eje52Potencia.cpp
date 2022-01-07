@@ -47,11 +47,15 @@ void pedirDatos()
 }
 float retornaExponente (float num1, float exponente)
 {
-    return pow(num1,exponente);
+    float resultado= 1;
+    for (int i = 1; i <= exponente; i++)
+    {
+        resultado *= num1;
+    }
+    return resultado;
 }
 void muestraExponente (float num1, float exponente)
-{   float resul;
-
-    resul= pow(num1, exponente);
-    std::cout<<"Resultado: "<<resul<<"\n";
+{   
+    float resultado= retornaExponente (num1, exponente);
+    std::cout<<"Resultado: "<<resultado<<"\n";
 }
