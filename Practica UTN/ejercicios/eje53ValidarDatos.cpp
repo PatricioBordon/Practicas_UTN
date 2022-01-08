@@ -17,9 +17,9 @@ void recibir (Tipo1 dato1, Tipo2 dato2);
 int main(){
     int n1= 4;
     int n2= 8;
-    char c1='h';
+    char c1= 'h';
     char c2='c';
-    recibir (c1, c2);
+    recibir (n1, n2);
     system("pause");
     return 0;
     
@@ -35,7 +35,7 @@ void recibir (Tipo1 dato1, Tipo2 dato2)
     }
     if ( std::string(typeid(dato1).name())=="i" && std::string(typeid(dato2).name())=="i")
     {
-        std::cout<<"Sumado: "<<(dato1+dato2)<<"\n";
+        std::cout<<"Sumado: "<<dato1+dato2<<"\n";
     }
     
     
