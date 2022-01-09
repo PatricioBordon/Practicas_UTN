@@ -1,3 +1,3 @@
-# Practicas_UTN
+# Practicas_C++
 Mi aprendizaje en C++
 
