@@ -1,0 +1,45 @@
+.container{
+    
+    background: #190;
+    padding: 30px;
+    position: relative;
+}
+.caja{
+    height: 100px;
+    width: 100px;
+    background: rgb(0, 0, 255);
+    transition-property: left;
+    transition-duration: 2s;
+    margin:20px;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 0;
+}
+.container:hover > .caja{
+    
+    left: 80% ;
+}
+.caja:first-child{
+    transition-timing-function:ease;
+}
+.caja:nth-child(2){
+    transition-timing-function:ease-in;
+}
+.caja:nth-child(3){
+    transition-timing-function:ease-in-out;
+}
+.caja:nth-child(4){
+    transition-timing-function:ease-out;
+}
+.caja:nth-child(5){
+    transition-timing-function:linear;
+}
+.caja:nth-child(6){
+    transition-timing-function:step-end
+}
+.caja:nth-child(7){
+    transition-timing-function:step-start;
+}
+.caja:last-child{
+    transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1)
+}
