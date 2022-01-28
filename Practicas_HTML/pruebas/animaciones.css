@@ -1,0 +1,34 @@
+.container{
+    
+    background: #190;
+    padding: 30px;
+    
+}
+.caja{
+    height: 100px;
+    width: 100px;
+    background: rgb(0, 0, 255);
+    margin:20px;
+    animation-name: desplazar;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes desplazar{
+    0%{
+        position: relative;
+        left: 0%;
+        
+    }
+    50%{
+        background: blueviolet;
+        
+    }
+    100%{
+        left: 80%;
+        background: chartreuse;
+    }
+}
