@@ -1,3 +1,3 @@
 # Practicas
-Mi aprendizaje 
+Mi aprendizaje con C/C++
 
