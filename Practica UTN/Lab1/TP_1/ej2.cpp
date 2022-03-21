@@ -5,7 +5,7 @@ valores en ambas variables y mostrarlos por pantalla.
 Ejemplo: Suponiendo que se ingresan 3 y 8 como valores y que la variables usadas son A y B,
 entonces A=3 y B=8, pero luego debe quedar A=8 y B=3.
 Autor: PEB
-Fecha:
+Fecha: 20/03/2022
 */
 
 #include <iostream>
