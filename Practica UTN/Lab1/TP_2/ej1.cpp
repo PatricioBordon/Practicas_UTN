@@ -1,5 +1,5 @@
 /*UTNFRGP
-Ejercicio: Hacer un programa para ingresar por teclado un número y luego emitir por pantalla un
+Ejercicio: Hacer un programa para ingresar por teclado un nï¿½mero y luego emitir por pantalla un
 cartel aclaratorio indicando si el mismo es positivo, negativo o cero.
 Autor: PEB
 Fecha: 23/03/2022
@@ -30,8 +30,8 @@ int main()
         cout<<num<<" es cero\n";
     }
 
-    return 0;
+    
     system("pause");
-
+    return 0;
 }
 
