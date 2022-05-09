@@ -5,15 +5,15 @@ Fecha:
 */
 #include <iostream>
 #include <stdio.h>
-using namespace std;
+
 
 int main() {
     int primos, n, d;
     bool es_primo=false;
 
     n = 2;
-    cout<<"Ingresar cantidad de numeros primos: ";
-    cin>>primos;
+    std::cout<<"Ingresar cantidad de numeros primos: ";
+    std::cin>>primos;
     while (primos> 0) {
 
         es_primo = true;
@@ -25,12 +25,12 @@ int main() {
         }
 
         if (es_primo) {
-            cout<<"\n"<< n;
+            std::cout<<"\n"<< n;
             primos--;
         }
         n++;
     }
 
-    cout<<("\n");
+    std::cout<<("\n");
     return 0;
 }
