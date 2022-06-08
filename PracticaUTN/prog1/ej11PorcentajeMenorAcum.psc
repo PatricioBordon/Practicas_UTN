@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	nroAvion=0
+	nroAntAvion=0
+	diaVuelo=0
+	cantVendidos=0
+	cantNoVendidos=0
+	totVendidos=0
+	totNoVendidos=0
+	asientosTotales=0
+	porcVendidos=0
+	menorOcupacion=0
+	menorOcupacionAvion=0
+    minPuntualidad=0
+	totMinPuntualidad=0
+	maxMinPuntualidad=0
+	maxAvionPuntualidad=0
+	maxDiaMinPuntualidad=0
+	maxAvionDiaPuntualidad=0
+	maxDiaPuntualidad=0
+FinAlgoritmo

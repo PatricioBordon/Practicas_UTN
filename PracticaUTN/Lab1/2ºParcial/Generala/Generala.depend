@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1653931580 source:e:\utn\practicas_utn\practicautn\lab1\2ºparcial\generala\main.cpp
+	<iostream>
+	<stdio.h>
+	"cabecera.h"
+
+1653931617 e:\utn\practicas_utn\practicautn\lab1\2ºparcial\generala\cabecera.h
+
